@@ -16,7 +16,7 @@ const productsDisplay = async () => {
     
     <article id="card${products.id}" class="cart__item">
     <h3 class="card_title">${products.name.toUpperCase() }</h3>
-    <img class="cart__item__img" src"${products.imageUrl}" alt="${products.altTxt}"/>
+    <img class="cart__item__img" src="${products.imageUrl}" alt="${products.altTxt}"/>
     <div class="bouton-chene">Kanap</div>
     <p class="cart__item__content">${products.description}</p>
     <button id="${products._id}" class="button-details">Voir</button>
