@@ -20,7 +20,7 @@ const productsDisplay = async () => {
     <article id="card1${productsData._id}">
             
     <div class="item__img">
-      <img src=${productsData.imageUrl}" alt="${productsData.altTxt}">
+      <img src=${productsData.imageUrl} alt="${productsData.altTxt}">
     </div>
     <div class="item__content">
   
