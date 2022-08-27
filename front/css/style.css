@@ -277,3 +277,8 @@ footer .footerSecondary {
 		width: 90%;
 	}
 }
+
+.fiche_produit_img{
+    width: 100%;
+    border-radius: 20px;
+}
