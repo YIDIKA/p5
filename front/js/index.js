@@ -4,10 +4,10 @@ fetch("http://localhost:3000/api/products")
 
 
 
-function addProducts(kanap) {
+function addProducts(kanaps) {
  
 
-  data.forEach((kanap) => {
+  kanaps.forEach((kanap) => {
     const { _id, imageUrl, altTxt, name, description } = kanap
     const anchor = makeAnchor(_id)
     const article = document.createElement("article")
