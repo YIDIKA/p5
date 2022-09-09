@@ -10,8 +10,8 @@ fetch(`http://localhost:3000/api/products/${id}`)
   .then((response) => response.json())
   .then((res) => handleData(res))
 
-function handleData(duck) {
-  const { altTxt, colors, description, imageUrl, name, price } = duck
+function handleData(kanap) {
+  const { altTxt, colors, description, imageUrl, name, price } = kanap
   itemPrice = price
   imgUrl = imageUrl
   altText = altTxt
